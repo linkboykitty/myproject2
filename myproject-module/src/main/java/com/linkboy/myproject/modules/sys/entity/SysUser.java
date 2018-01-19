@@ -16,9 +16,7 @@ public class SysUser {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private String id;
 
-    /**
-     * ������˾
-     */
+
     @Column(name = "company_id")
     private String companyId;
 
